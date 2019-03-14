@@ -7,29 +7,28 @@ ol, ul {
   padding-left: 30px;
 }
 
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
+.board-row {
+  width: 300px;
+  display: inline-block;
 }
 
 .status {
   margin-bottom: 10px;
 }
 
-.square {
+.game-board div div button {
+  font-size: 50px !important;
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
 }
 
 .square:focus {
@@ -37,19 +36,7 @@ ol, ul {
 }
 
 .square-red {
-  background: #fff;
-  border: 1px solid #999;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
   color: #FF0000;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
-  text-align: center;
-  width: 34px;
 }
 
 .square-red:focus {
